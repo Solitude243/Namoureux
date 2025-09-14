@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message d'Amour</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Playfair+Display:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="navigation">
+            <div class="nav-dots">
+                <span class="dot active" data-page="1"></span>
+                <span class="dot" data-page="2"></span>
+                <span class="dot" data-page="3"></span>
+            </div>
+        </nav>
+
+        <!-- Page 1: Introduction -->
+        <div class="page active" id="page1">
+            <div class="page-content">
+                <div class="hearts-decoration">
+                    <div class="heart heart-1"></div>
+                    <div class="heart heart-2"></div>
+                    <div class="heart heart-3"></div>
+                </div>
+                <h1 class="page-title">Mon Amour</h1>
+                <div class="message-content">
+                    <p>Chaque jour passé à tes côtés est un cadeau. Ton sourire illumine ma vie et ton rire est la plus douce des mélodies.</p>
+                    <p>Je me souviens de notre première rencontre, de ce moment où nos regards se sont croisés et où le monde a semblé s'arrêter.</p>
+                    <p>C'est là que tout a commencé, le début de notre magnifique histoire.</p>
+                </div>
+                <div class="rose-decoration"></div>
+            </div>
+            <button class="nav-button next-btn" onclick="nextPage()">
+                <span>→</span>
+            </button>
+        </div>
+
+        <!-- Page 2: Les sentiments -->
+        <div class="page" id="page2">
+            <div class="page-content">
+                <div class="floating-petals">
+                    <div class="petal petal-1"></div>
+                    <div class="petal petal-2"></div>
+                    <div class="petal petal-3"></div>
+                    <div class="petal petal-4"></div>
+                </div>
+                <h1 class="page-title">Mes Sentiments</h1>
+                <div class="message-content">
+                    <p>Avec toi, j'ai découvert une profondeur d'amour que je ne pensais pas possible. Tu es ma force, ma joie, mon refuge.</p>
+                    <p>Chaque instant partagé est précieux, rempli de tendresse et de complicité.</p>
+                    <p>Mon cœur bat plus fort à chaque fois que je pense à toi, et je suis infiniment reconnaissant(e) pour tout ce que tu m'apportes.</p>
+                </div>
+            </div>
+            <button class="nav-button prev-btn" onclick="prevPage()">
+                <span>←</span>
+            </button>
+            <button class="nav-button next-btn" onclick="nextPage()">
+                <span>→</span>
+            </button>
+        </div>
+
+        <!-- Page 3: Promesse et futur -->
+        <div class="page" id="page3">
+            <div class="page-content">
+                <div class="sparkles">
+                    <div class="sparkle sparkle-1"></div>
+                    <div class="sparkle sparkle-2"></div>
+                    <div class="sparkle sparkle-3"></div>
+                    <div class="sparkle sparkle-4"></div>
+                    <div class="sparkle sparkle-5"></div>
+                </div>
+                <h1 class="page-title">Pour Toujours</h1>
+                <div class="message-content">
+                    <p>Je te promets mon amour éternel, un amour qui grandira et s'épanouira chaque jour davantage.</p>
+                    <p>Je veux construire avec toi un futur rempli de bonheur, de rêves réalisés et de moments inoubliables.</p>
+                    <p>Tu es l'âme sœur que j'ai toujours cherchée, et je t'aimerai pour toujours.</p>
+                    <div class="signature">Avec tout mon amour ❤️</div>
+                </div>
+            </div>
+            <button class="nav-button prev-btn" onclick="prevPage()">
+                <span>←</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+                  </html>
